@@ -7,7 +7,9 @@ public class Main {
         // Manusia Dika = new Manusia("Dika", "9876", true, false);
         // System.out.println(Dika);
 
-        MahasiswaFILKOM ali = new MahasiswaFILKOM("245150200111100", 2.9, "Ali", "0101", true, false);
-        System.out.println(ali);
+        // MahasiswaFILKOM ali = new MahasiswaFILKOM("245150200111100", 2.9, "Ali", "0101", true, false);
+        // System.out.println(ali);
+        MahasiswaFILKOM dina = new MahasiswaFILKOM("255150400121200", 3.3, "Dina", "0202", false, false);
+        System.out.println(dina);
     }
 }
