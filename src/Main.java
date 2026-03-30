@@ -16,7 +16,9 @@ public class Main {
 
         // Pekerja agus = new Pekerja(1000, 2024, 3, 2, 2, "Agus", "1234", true, true);
         // System.out.println(agus);
-        Pekerja budi = new Pekerja(1000, 2017, 1, 2, 0, "Budi", "2345", true, true);
-        System.out.println(budi);
+        // Pekerja budi = new Pekerja(1000, 2017, 1, 2, 0, "Budi", "2345", true, true);
+        // System.out.println(budi);
+        Pekerja candra = new Pekerja(1000, 2006, 6, 10, 10, "Budi", "2345", true, true);
+        System.out.println(candra);
     }
 }
