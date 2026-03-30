@@ -65,6 +65,6 @@ public class Pekerja extends Manusia {
         return  super.toString() +
                 "Tahun Masuk    : " + tahunMasuk.getDayOfMonth() + " " + tahunMasuk.getMonthValue() + " " + tahunMasuk.getYear() + "\n" +
                 "Jumlah Anak    : " + jumlahAnak + "\n" +
-                "Gaji           : " + gaji;  
+                "Gaji           : " + gaji + "\n";  
     }
 }

@@ -18,7 +18,10 @@ public class Main {
         // System.out.println(agus);
         // Pekerja budi = new Pekerja(1000, 2017, 1, 2, 0, "Budi", "2345", true, true);
         // System.out.println(budi);
-        Pekerja candra = new Pekerja(1000, 2006, 6, 10, 10, "Budi", "2345", true, true);
-        System.out.println(candra);
+        // Pekerja candra = new Pekerja(1000, 2006, 6, 10, 10, "Budi", "2345", true, true);
+        // System.out.println(candra);
+
+        Manager ridwan = new Manager("HRD", 7500, 2011, 8, 9, 0, "Ridwan", "0987", true, true);
+        System.out.println(ridwan);
     }
 }
