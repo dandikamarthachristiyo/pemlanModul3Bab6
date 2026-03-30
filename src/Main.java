@@ -14,7 +14,9 @@ public class Main {
         // MahasiswaFILKOM dandika = new MahasiswaFILKOM("255150700111032", 3.95, "Dandika Martha Christiyo", "9999", true, false);
         // System.out.println(dandika);
 
-        Pekerja agus = new Pekerja(1000, 2024, 3, 2, 2, "Agus", "1234", true, true);
-        System.out.println(agus);
+        // Pekerja agus = new Pekerja(1000, 2024, 3, 2, 2, "Agus", "1234", true, true);
+        // System.out.println(agus);
+        Pekerja budi = new Pekerja(1000, 2017, 1, 2, 0, "Budi", "2345", true, true);
+        System.out.println(budi);
     }
 }
