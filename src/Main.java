@@ -9,7 +9,9 @@ public class Main {
 
         // MahasiswaFILKOM ali = new MahasiswaFILKOM("245150200111100", 2.9, "Ali", "0101", true, false);
         // System.out.println(ali);
-        MahasiswaFILKOM dina = new MahasiswaFILKOM("255150400121200", 3.3, "Dina", "0202", false, false);
-        System.out.println(dina);
+        // MahasiswaFILKOM dina = new MahasiswaFILKOM("255150400121200", 3.3, "Dina", "0202", false, false);
+        // System.out.println(dina);
+        MahasiswaFILKOM dandika = new MahasiswaFILKOM("255150700111032", 3.95, "Dandika Martha Christiyo", "9999", true, false);
+        System.out.println(dandika);
     }
 }
