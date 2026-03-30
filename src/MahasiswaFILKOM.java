@@ -3,8 +3,8 @@ public class MahasiswaFILKOM extends Manusia {
     private String nim;
     private double ipk;
 
-    public MahasiswaFILKOM(String nama, String nik, boolean jenisKelamin, boolean menikah, String nim, double ipk) {
-        super(nama, nik, jenisKelamin, menikah);
+    public MahasiswaFILKOM(String nim, double ipk, String nama, String nik, boolean jenisKelamin, boolean menikah) {
+        super(nama, nik, jenisKelamin, menikah); 
         this.nim = nim;
         this.ipk = ipk;
     }
@@ -69,7 +69,7 @@ public class MahasiswaFILKOM extends Manusia {
 
     @Override
     public String toString() {
-        return  super.toString() + "\n" +
+        return  super.toString() +
                 "NIM            : " + nim + "\n" +
                 "IPK            : " + ipk + "\n" +
                 "Status         : " + getStatus() ;  

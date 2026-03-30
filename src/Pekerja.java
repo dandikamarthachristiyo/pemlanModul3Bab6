@@ -62,7 +62,7 @@ public class Pekerja extends Manusia {
 
      @Override
     public String toString() {
-        return  super.toString() + "\n" +
+        return  super.toString() +
                 "Tahun Masuk    : " + tahunMasuk.getDayOfMonth() + " " + tahunMasuk.getMonthValue() + " " + tahunMasuk.getYear() + "\n" +
                 "Jumlah Anak    : " + jumlahAnak + "\n" +
                 "Gaji           : " + gaji;  
