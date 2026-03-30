@@ -11,7 +11,10 @@ public class Main {
         // System.out.println(ali);
         // MahasiswaFILKOM dina = new MahasiswaFILKOM("255150400121200", 3.3, "Dina", "0202", false, false);
         // System.out.println(dina);
-        MahasiswaFILKOM dandika = new MahasiswaFILKOM("255150700111032", 3.95, "Dandika Martha Christiyo", "9999", true, false);
-        System.out.println(dandika);
+        // MahasiswaFILKOM dandika = new MahasiswaFILKOM("255150700111032", 3.95, "Dandika Martha Christiyo", "9999", true, false);
+        // System.out.println(dandika);
+
+        Pekerja agus = new Pekerja(1000, 2024, 3, 2, 2, "Agus", "1234", true, true);
+        System.out.println(agus);
     }
 }
